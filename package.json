@@ -1,17 +1,17 @@
 {
   "private": false,
-  "name": "homebridge-gsh",
-  "displayName": "Homebridge Google Smart Home",
-  "version": "2.2.0",
+  "name": "homebridge-gsh-fixes",
+  "displayName": "Fork of Homebridge Google Smart Home",
+  "version": "2.2.2",
   "description": "Google Smart Home",
   "license": "GPL-3.0",
-  "author": "oznu <dev@oz.nu>",
+  "author": "Peter Pan <diepeterpan@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oznu/homebridge-gsh.git"
+    "url": "git://github.com/diepeterpan/homebridge-gsh.git"
   },
   "bugs": {
-    "url": "https://github.com/oznu/homebridge-gsh/issues"
+    "url": "https://github.com/diepeterpan/homebridge-gsh/issues"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -27,12 +27,6 @@
     "node": ">=10.17.0",
     "homebridge": ">=1.0.0"
   },
-  "funding": [
-    {
-      "type": "paypal",
-      "url": "https://paypal.me/oznu"
-    }
-  ],
   "keywords": [
     "homebridge-plugin",
     "google smart home",

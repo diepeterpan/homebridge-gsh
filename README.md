@@ -57,21 +57,23 @@ Control your supported [Homebridge](https://github.com/nfarina/homebridge) acces
 
 *Note: Google Smart Home does not currently support all "sensor" devices such as Motion Sensors or Occupancy Sensors etc.*
 
+* **Fixed in this custom build is temperature sensors not showing the temperature in Google Home.**
+
 ## Installation Instructions
 
 #### Option 1: Install via Homebridge Config UI X:
 
-Search for "Google Home" in [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x) and install `homebridge-gsh`.
+Search for "Google Home" in [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x) and install `homebridge-gsh-fixes`.
 
 #### Option 2: Manually Install:
 
 ```
-sudo npm install -g homebridge-gsh
+sudo npm install -g homebridge-gsh-fixes
 ```
 
 ## Configuration
 
-To configure `homebridge-gsh` you must also be running [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x).
+To configure `homebridge-gsh-fixes` you must also be running [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x).
 
 1. Navigate to the Plugins page in [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x).
 2. Click the **Settings** button for the Google Smart Home plugin.
@@ -106,10 +108,10 @@ Make sure you installed the package with `sudo` flag. Most installation errors c
 
 ```shell
 # cleanup
-sudo npm uninstall -g homebridge-gsh
+sudo npm uninstall -g homebridge-gsh-fixes
 
 # reinstall
-sudo npm install -g homebridge-gsh
+sudo npm install -g homebridge-gsh-fixes
 ```
 
 #### 2. Cannot control accessories
