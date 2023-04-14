@@ -2,7 +2,7 @@
   "private": false,
   "name": "homebridge-gsh-fixes",
   "displayName": "Fork of Homebridge Google Smart Home",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Google Smart Home",
   "license": "GPL-3.0",
   "author": "Peter Pan <diepeterpan@gmail.com>",
